@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<p>Click <a href="index.html">here</a> to return</p>
+	<button><a href="items.html">Back</a></button>
 	<?php
 		$db = mysqli_connect('localhost', 'root', '', 'grocerydelivery');
 		$query = "SELECT * FROM item";
 
-		echo '<table border="0" cellspacing="2" cellpadding="2">
+		echo '<table border="1" cellspacing="3" cellpadding="3">
 		<tr>
 			<td> <font face="Arial">IName</font></td>
 			<td> <font face="Arial">Stock</font></td>
