@@ -1,28 +1,22 @@
-<?php
-	include 'server.php';
+<?php 
+	include 'server.php'
 ?>
-<!DOCTYPE html>
-<html>
 <head>
-	<title>Search and list Items</title>
 	<link rel="stylesheet" type="text/css" href="listAndSearch.css">
 </head>
-<body>
-	<a href="items.html"><button>Back</button></a>
-	<p></p>
-	<form action="search.php" method="POST">
-		<input type="text" name="search" placeholder="Search">
-		<button type="submit" name="submit-search">Search</button>
-	</form>
-<h2>All Items:</h2>
-
+<h1>Search page</h1>
+<a href="listItem.php"><button>Back</button></a>
+<p></p>
 <div class="item-container">
-	<?php
-		$query = "SELECT * FROM item";
-		$result = $db->query($query);
-		$queryResults = mysqli_num_rows($result);
+<?php 
+	if (isset($_POST['submit-search'])) {
+		$search = mysqli_real_escape_string($db, $_POST['search']);
+		$sql = "SELECT * FROM item WHERE IName LIKE '%$search%' OR INum LIKE '%$search%' OR DNum='$search'";
+		$result = mysqli_query($db, $sql);
+		$queryResult = mysqli_num_rows($result);
 
-		echo '<table border="1" cellspacint="3" cellpadding="2">
+		if ($queryResult > 0){
+			echo '<table border="1" cellspacint="3" cellpadding="2">
 			<tr>
 				<td> <font face="Arial">IName</font></td>
 				<td> <font face="Arial">Stock</font></td>
@@ -30,8 +24,6 @@
 				<td> <font face="Arial">INum</font></td>
 				<td> <font face="Arial">DNum</font></td>
 			</tr>';
-
-		if ($queryResults > 0) {
 			while ($row = mysqli_fetch_assoc($result)){
 				echo "<tr class='item-box'>
 					<td>".$row['IName']."</td>
@@ -41,9 +33,9 @@
 					<td>".$row['DNum']."</td>
 				</tr>";
 			}
+		} else{
+			echo "There are no results matching your search!";
 		}
-	?>
+	}
+?>
 </div>
-
-</body>
-</html>
