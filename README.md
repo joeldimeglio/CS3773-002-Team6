@@ -5,7 +5,7 @@ To use
 
 #1 Download zip file
 
-#2 Xampp file directly to C://
+#2 Move Xampp file directly to C://
 
 #3 Go to Xampp/htdocs and create a folder GroceryDelivery and put the rest of the files into this folder
 
