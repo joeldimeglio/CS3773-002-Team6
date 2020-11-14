@@ -16,22 +16,26 @@
 		$queryResult = mysqli_num_rows($result);
 
 		if ($queryResult > 0){
-			echo '<table border="1" cellspacint="3" cellpadding="2">
-			<tr>
-				<td> <font face="Arial">IName</font></td>
-				<td> <font face="Arial">Stock</font></td>
-				<td> <font face="Arial">Price</font></td>
-				<td> <font face="Arial">INum</font></td>
-				<td> <font face="Arial">DNum</font></td>
-			</tr>';
+			echo '<table border="1" cellspacint="3" cellpadding="2" class="styled-table">
+			<thead>
+				<tr>
+					<th> <font face="Arial">IName</font></th>
+					<th> <font face="Arial">Stock</font></th>
+					<th> <font face="Arial">Price</font></th>
+					<th> <font face="Arial">INum</font></th>
+					<th> <font face="Arial">DNum</font></th>
+				</tr>
+			</thead>';
 			while ($row = mysqli_fetch_assoc($result)){
-				echo "<tr class='item-box'>
+				echo "<tbody>
+				<tr>
 					<td>".$row['IName']."</td>
 					<td>".$row['Stock']."</td>
 					<td>".$row['Price']."</td>
 					<td>".$row['INum']."</td>
 					<td>".$row['DNum']."</td>
-				</tr>";
+				</tr>
+				</tbody>";
 			}
 		} else{
 			echo "There are no results matching your search!";
