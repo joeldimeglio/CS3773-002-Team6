@@ -53,3 +53,24 @@
 [Thu Nov 12 21:43:11.532394 2020] [php7:warn] [pid 30112:tid 1788] [client ::1:61242] PHP Warning:  mysqli::query() expects parameter 1 to be string, object given in C:\\xampp\\htdocs\\GroceryDelivery\\listItem.php on line 21
 [Thu Nov 12 21:43:11.532394 2020] [php7:warn] [pid 30112:tid 1788] [client ::1:61242] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\\xampp\\htdocs\\GroceryDelivery\\listItem.php on line 22
 [Thu Nov 12 21:59:44.069956 2020] [php7:error] [pid 30112:tid 1788] [client ::1:61423] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\\xampp\\htdocs\\GroceryDelivery\\search.php on line 38, referer: http://localhost/GroceryDelivery/listItem.php
+[Sun Nov 15 00:13:27.105713 2020] [ssl:warn] [pid 16416:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 15 00:13:27.151722 2020] [core:warn] [pid 16416:tid 576] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 15 00:13:27.156723 2020] [ssl:warn] [pid 16416:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 15 00:13:27.413781 2020] [mpm_winnt:notice] [pid 16416:tid 576] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 configured -- resuming normal operations
+[Sun Nov 15 00:13:27.413781 2020] [mpm_winnt:notice] [pid 16416:tid 576] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Sun Nov 15 00:13:27.413781 2020] [core:notice] [pid 16416:tid 576] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Nov 15 00:13:27.416782 2020] [mpm_winnt:notice] [pid 16416:tid 576] AH00418: Parent: Created child process 15060
+[Sun Nov 15 00:13:27.708847 2020] [ssl:warn] [pid 15060:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 15 00:13:27.753858 2020] [ssl:warn] [pid 15060:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 15 00:13:27.778863 2020] [mpm_winnt:notice] [pid 15060:tid 576] AH00354: Child: Starting 150 worker threads.
+[Sun Nov 15 00:13:34.107559 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50451] script 'C:/xampp/htdocs/GroceryDelivery/createItemServer_6gmatjtqmm.php' not found or unable to stat
+[Sun Nov 15 00:13:37.177876 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50451] script 'C:/xampp/htdocs/GroceryDelivery/createItemServer_6goorjtqmp.php' not found or unable to stat
+[Sun Nov 15 00:14:12.277840 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50461] script 'C:/xampp/htdocs/GroceryDelivery/createItemServer_6hfqajtqno.php' not found or unable to stat
+[Sun Nov 15 00:14:14.165661 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50461] script 'C:/xampp/htdocs/GroceryDelivery/createItemServer_6hh83jtqnq.php' not found or unable to stat
+[Sun Nov 15 00:14:14.928429 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50461] script 'C:/xampp/htdocs/GroceryDelivery/createItemServer_6hhsxjtqnq.php' not found or unable to stat
+[Sun Nov 15 00:14:15.530563 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50461] script 'C:/xampp/htdocs/GroceryDelivery/createItemServer_6hi9vjtqnr.php' not found or unable to stat
+[Sun Nov 15 00:14:56.646169 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50470] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6idyhjtqow.php' not found or unable to stat
+[Sun Nov 15 00:14:57.426345 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50470] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6ielhjtqox.php' not found or unable to stat
+[Sun Nov 15 00:15:31.874790 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50473] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6j54cjtqpv.php' not found or unable to stat
+[Sun Nov 15 00:15:32.661967 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50473] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6j5rsjtqpw.php' not found or unable to stat
+[Sun Nov 15 00:15:33.462147 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50473] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6j6ecjtqpx.php' not found or unable to stat
