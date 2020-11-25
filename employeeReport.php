@@ -14,15 +14,15 @@
 
 <div class="item-container">
 	<?php
-		$query = "SELECT Count(INum), DNum FROM item;";
+		$query = "SELECT Count(DNum), DNum FROM employee";
 		$result = $db->query($query);
 		$queryResults = mysqli_num_rows($result);
 
 		echo '<table border="1" cellspacint="3" cellpadding="2" class="styled-table">
-		<caption style="caption-side:top"><h2>Items in each Department</h2></caption>
+		<caption style="caption-side:top"><h2>Number of Employees in Each Department</h2></caption>
 			<thead>
 				<tr>
-					<th> <font face="Arial">Num of Items</font></th>
+					<th> <font face="Arial">Num of Employees</font></th>
 					<th> <font face="Arial">Department Num</font></th>
 				</tr>
 			</thead>';
@@ -31,24 +31,23 @@
 			while ($row = mysqli_fetch_assoc($result)){
 				echo "<tbody>
 				<tr>
-					<td>".$row['Count(INum)']."</td>
+					<td>".$row['Count(DNum)']."</td>
 					<td>".$row['DNum']."</td>
 				</tr></tbody>";
 			}
 		}
 	?>
 	<?php
-		$query = "SELECT INum, IName, Stock, DNum FROM item WHERE Stock < 5;";
+		$query = "SELECT EName, Salary, DNum FROM employee as o WHERE Salary >= (SELECT AVG(Salary) fROM employee as i WHERE i.DNum = o.DNum)";
 		$result = $db->query($query);
 		$queryResults = mysqli_num_rows($result);
 
 		echo '<table border="1" cellspacint="3" cellpadding="2" class="styled-table">
-			<caption style="caption-side:top"><h2>Low Stock:</h2></caption>
+			<caption style="caption-side:top"><h2>Employees Getting Paid Above Average</h2></caption>
 			<thead>
 				<tr>
-					<th> <font face="Arial">Item Num</font></th>
-					<th> <font face="Arial">Item Name</font></th>
-					<th> <font face="Arial">Stock</font></th>
+					<th> <font face="Arial">Employee Name</font></th>
+					<th> <font face="Arial">Salary</font></th>
 					<th> <font face="Arial">Department Num</font></th>
 				</tr>
 			</thead>';
@@ -57,9 +56,8 @@
 			while ($row = mysqli_fetch_assoc($result)){
 				echo "<tbody>
 				<tr>
-					<td>".$row['INum']."</td>
-					<td>".$row['IName']."</td>
-					<td>".$row['Stock']."</td>
+					<td>".$row['EName']."</td>
+					<td>".$row['Salary']."</td>
 					<td>".$row['DNum']."</td>
 				</tr></tbody>";
 			}
