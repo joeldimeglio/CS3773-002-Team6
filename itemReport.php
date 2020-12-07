@@ -14,7 +14,7 @@
 
 <div class="item-container">
 	<?php
-		$query = "SELECT Count(INum), DNum FROM item;";
+		$query = "SELECT Count(INum), DNum FROM item GROUP BY DNum;";
 		$result = $db->query($query);
 		$queryResults = mysqli_num_rows($result);
 

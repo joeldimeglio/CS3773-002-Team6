@@ -14,7 +14,7 @@
 
 <div class="item-container">
 	<?php
-		$query = "SELECT Count(DNum), DNum FROM employee";
+		$query = "SELECT Count(DNum), DNum FROM employee Group by Dnum;";
 		$result = $db->query($query);
 		$queryResults = mysqli_num_rows($result);
 

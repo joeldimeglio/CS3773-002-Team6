@@ -21,8 +21,10 @@
 
 	if(count($errors) == 0){
 		$sql = "INSERT INTO item(IName, Price, DNum) VALUES ('$IName', '$Price', '$DNum')";
+		$sql2 = "INSERT INTO packages(DNum, INum) VALUES ($DNum, SELECT INum FROM item WHERE IName == '$IName';);";
 		array_push($errors, "Item has been created");
 		mysqli_query($db, $sql);
+		mysqli_query($db, $sql2);
 	}
 }
 

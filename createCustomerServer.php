@@ -26,7 +26,7 @@
 
 	if(count($errors) == 0){
 		$sql = "INSERT INTO customer(CPhone, CName, CAddress, CEmail) VALUES ($CPhone, '$CName', '$CAddress', '$CEmail');";
-		array_push($errors, $sql);
+		array_push($errors, "Customer has been created");
 		mysqli_query($db, $sql);
 	}
 }

@@ -41,8 +41,10 @@
 
 	if(count($errors) == 0){
 		$sql = "INSERT INTO employee(DOB, SDate, SSN, EPhone, EName, EAddress, DNum) VALUES ('$DOB', '$SDate', '$SSN', '$EPhone', '$EName', '$EAddress', $DNum);";
+		$sql2 = "INSERT INTO works_in(SSN, DNum) Values($SSN, $DNum);";
 		array_push($errors, "Employee has been created");
 		mysqli_query($db, $sql);
+		mysqli_query($db, $sql2);
 	}
 }
 
