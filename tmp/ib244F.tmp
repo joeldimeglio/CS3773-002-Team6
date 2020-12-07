@@ -1,0 +1,10 @@
+2020-11-25 21:54:09 0x68f8 Error in foreign key constraint of table `grocerydelivery`.`buys`:
+ FOREIGN KEY (`CAddress`) REFERENCES `customer`(`CPhone`) ON DELETE RESTRICT ON UPDATE RESTRICT:
+Cannot find an index in the referenced table where the
+referenced columns appear as the first columns, or column types
+in the table and the referenced table do not match for constraint.
+Note that the internal storage type of ENUM and SET changed in
+tables created with >= InnoDB-4.1.12, and such columns in old tables
+cannot be referenced by such columns in new tables.
+Please refer to https://mariadb.com/kb/en/library/foreign-keys/ for correct foreign key definition.
+Alter  table `grocerydelivery`.`buys` with foreign key constraint failed. Field type or character set for column 'CAddress' does not mach referenced column 'CPhone' near ' FOREIGN KEY (`CAddress`) REFERENCES `customer`(`CPhone`) ON DELETE RESTRICT ON UPDATE RESTRICT'.

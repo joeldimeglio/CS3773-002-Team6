@@ -74,3 +74,117 @@
 [Sun Nov 15 00:15:31.874790 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50473] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6j54cjtqpv.php' not found or unable to stat
 [Sun Nov 15 00:15:32.661967 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50473] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6j5rsjtqpw.php' not found or unable to stat
 [Sun Nov 15 00:15:33.462147 2020] [php7:error] [pid 15060:tid 1824] [client ::1:50473] script 'C:/xampp/htdocs/GroceryDelivery/htdocs/GroceryDelivery/createItemServer_6j6ecjtqpx.php' not found or unable to stat
+[Tue Nov 24 20:22:17.221377 2020] [ssl:warn] [pid 9536:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 24 20:22:17.272389 2020] [core:warn] [pid 9536:tid 492] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 24 20:22:17.279391 2020] [ssl:warn] [pid 9536:tid 492] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 24 20:22:17.658476 2020] [mpm_winnt:notice] [pid 9536:tid 492] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 configured -- resuming normal operations
+[Tue Nov 24 20:22:17.658476 2020] [mpm_winnt:notice] [pid 9536:tid 492] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Tue Nov 24 20:22:17.658476 2020] [core:notice] [pid 9536:tid 492] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Tue Nov 24 20:22:17.662478 2020] [mpm_winnt:notice] [pid 9536:tid 492] AH00418: Parent: Created child process 5800
+[Tue Nov 24 20:22:18.100576 2020] [ssl:warn] [pid 5800:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 24 20:22:18.160590 2020] [ssl:warn] [pid 5800:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Nov 24 20:22:18.198599 2020] [mpm_winnt:notice] [pid 5800:tid 620] AH00354: Child: Starting 150 worker threads.
+[Tue Nov 24 20:59:28.377280 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50697] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 20:59:28.377280 2020] [php7:warn] [pid 5800:tid 1840] [client ::1:50697] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 20:59:28.378281 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50697] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 20:59:28.378281 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50697] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 27
+[Tue Nov 24 20:59:28.378281 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50697] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 33
+[Tue Nov 24 21:00:28.716458 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50704] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:00:28.716458 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:50704] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:00:28.716458 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50704] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 21:00:28.717459 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50704] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 27
+[Tue Nov 24 21:00:28.717459 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50704] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 33
+[Tue Nov 24 21:03:17.480674 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50724] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:03:17.480674 2020] [php7:warn] [pid 5800:tid 1840] [client ::1:50724] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:03:17.481674 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50724] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 21:03:17.481674 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50724] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 27
+[Tue Nov 24 21:03:17.481674 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50724] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 33
+[Tue Nov 24 21:05:40.715823 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:05:40.715823 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:50744] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:05:40.715823 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 21:05:40.715823 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 27
+[Tue Nov 24 21:05:40.715823 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 33
+[Tue Nov 24 21:05:41.531948 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:05:41.532948 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:50744] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:05:41.532948 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 21:05:41.532948 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 27
+[Tue Nov 24 21:05:41.532948 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50744] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 33
+[Tue Nov 24 21:06:47.460936 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50753] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:06:47.460936 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:50753] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:06:47.460936 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50753] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 21:06:47.460936 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50753] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 27
+[Tue Nov 24 21:06:47.460936 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50753] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 33
+[Tue Nov 24 21:07:39.522323 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50773] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:07:39.522323 2020] [php7:warn] [pid 5800:tid 1840] [client ::1:50773] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:07:39.523332 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50773] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 21:07:39.523332 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50773] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 27
+[Tue Nov 24 21:07:39.523332 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:50773] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 33
+[Tue Nov 24 21:09:48.313056 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50782] PHP Notice:  Undefined variable: errors in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:09:48.313056 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:50782] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\\xampp\\htdocs\\GroceryDelivery\\errors.php on line 1
+[Tue Nov 24 21:09:48.313056 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50782] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 17
+[Tue Nov 24 21:09:48.313056 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50782] PHP Notice:  Undefined variable: SectionToChange in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 21
+[Tue Nov 24 21:09:48.314064 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:50782] PHP Notice:  Undefined variable: ChangeVar in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItem.php on line 31
+[Tue Nov 24 21:23:55.774706 2020] [php7:error] [pid 5800:tid 1840] [client ::1:51029] PHP Parse error:  syntax error, unexpected ';' in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 29, referer: http://localhost/GroceryDelivery/modifyItem.php
+[Tue Nov 24 21:25:37.197999 2020] [php7:error] [pid 5800:tid 1840] [client ::1:51037] PHP Parse error:  syntax error, unexpected '}' in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 35, referer: http://localhost/GroceryDelivery/modifyItem.php
+[Tue Nov 24 21:26:09.715535 2020] [php7:error] [pid 5800:tid 1836] [client ::1:51038] PHP Parse error:  syntax error, unexpected '}' in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 35, referer: http://localhost/GroceryDelivery/modifyItem.php
+[Tue Nov 24 21:26:16.786927 2020] [php7:error] [pid 5800:tid 1840] [client ::1:51039] PHP Parse error:  syntax error, unexpected '}' in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 35, referer: http://localhost/GroceryDelivery/modifyItem.php
+[Tue Nov 24 21:26:28.676930 2020] [php7:error] [pid 5800:tid 1836] [client ::1:51042] PHP Parse error:  syntax error, unexpected end of file in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 38, referer: http://localhost/GroceryDelivery/modifyItem.php
+[Tue Nov 24 22:43:35.305857 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:52039] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\GroceryDelivery\\itemReport.php on line 19
+[Wed Nov 25 01:31:56.126872 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:53737] PHP Notice:  Undefined variable: SSN in C:\\xampp\\htdocs\\GroceryDelivery\\modifyEmployee.php on line 17
+[Wed Nov 25 01:32:59.096219 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:53741] PHP Notice:  Undefined index: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 8, referer: http://localhost/GroceryDelivery/modifyEmployee.php
+[Wed Nov 25 01:33:47.883943 2020] [php7:notice] [pid 5800:tid 1836] [client ::1:53750] PHP Notice:  Undefined index: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 8, referer: http://localhost/GroceryDelivery/modifyEmployee.php
+[Wed Nov 25 01:34:13.708436 2020] [php7:notice] [pid 5800:tid 1840] [client ::1:53752] PHP Notice:  Undefined index: INum in C:\\xampp\\htdocs\\GroceryDelivery\\modifyItemServer.php on line 8, referer: http://localhost/GroceryDelivery/modifyEmployee.php
+[Wed Nov 25 01:47:24.578145 2020] [php7:warn] [pid 5800:tid 1840] [client ::1:53832] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\GroceryDelivery\\employeeReport.php on line 43
+[Wed Nov 25 21:19:29.261446 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:60788] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\GroceryDelivery\\listCustomer.php on line 19
+[Wed Nov 25 21:21:01.696491 2020] [php7:warn] [pid 5800:tid 1840] [client ::1:60806] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\GroceryDelivery\\listCustomer.php on line 19
+[Wed Nov 25 21:24:33.594369 2020] [php7:warn] [pid 5800:tid 1836] [client ::1:60843] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in C:\\xampp\\htdocs\\GroceryDelivery\\listCustomer.php on line 19
+[Wed Nov 25 21:39:16.057698 2020] [php7:error] [pid 5800:tid 1828] [client ::1:60957] PHP Parse error:  syntax error, unexpected ';' in C:\\xampp\\htdocs\\GroceryDelivery\\modifyCustomerServer.php on line 21
+[Mon Nov 30 17:49:17.970299 2020] [ssl:warn] [pid 20876:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 17:49:18.019309 2020] [core:warn] [pid 20876:tid 584] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 30 17:49:18.024311 2020] [ssl:warn] [pid 20876:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 17:49:18.284165 2020] [mpm_winnt:notice] [pid 20876:tid 584] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 configured -- resuming normal operations
+[Mon Nov 30 17:49:18.284165 2020] [mpm_winnt:notice] [pid 20876:tid 584] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Mon Nov 30 17:49:18.284165 2020] [core:notice] [pid 20876:tid 584] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Nov 30 17:49:18.287166 2020] [mpm_winnt:notice] [pid 20876:tid 584] AH00418: Parent: Created child process 3008
+[Mon Nov 30 17:49:18.689107 2020] [ssl:warn] [pid 3008:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 17:49:18.731132 2020] [ssl:warn] [pid 3008:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 17:49:18.756136 2020] [mpm_winnt:notice] [pid 3008:tid 584] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 30 18:04:23.156437 2020] [php7:error] [pid 3008:tid 1800] [client ::1:61346] PHP Parse error:  syntax error, unexpected 'array_push' (T_STRING) in C:\\xampp\\htdocs\\GroceryDelivery\\createEmployeeServer.php on line 45, referer: http://localhost/GroceryDelivery/employee.html
+[Mon Nov 30 18:10:15.010547 2020] [php7:notice] [pid 3008:tid 1836] [client ::1:61494] PHP Notice:  Undefined index: Count(INum) in C:\\xampp\\htdocs\\GroceryDelivery\\itemReport.php on line 34, referer: http://localhost/GroceryDelivery/items.html
+[Mon Nov 30 18:10:15.011548 2020] [php7:notice] [pid 3008:tid 1836] [client ::1:61494] PHP Notice:  Undefined index: Count(INum) in C:\\xampp\\htdocs\\GroceryDelivery\\itemReport.php on line 34, referer: http://localhost/GroceryDelivery/items.html
+[Mon Nov 30 18:10:15.011548 2020] [php7:notice] [pid 3008:tid 1836] [client ::1:61494] PHP Notice:  Undefined index: Count(INum) in C:\\xampp\\htdocs\\GroceryDelivery\\itemReport.php on line 34, referer: http://localhost/GroceryDelivery/items.html
+[Mon Nov 30 18:10:15.011548 2020] [php7:notice] [pid 3008:tid 1836] [client ::1:61494] PHP Notice:  Undefined index: Count(INum) in C:\\xampp\\htdocs\\GroceryDelivery\\itemReport.php on line 34, referer: http://localhost/GroceryDelivery/items.html
+[Mon Nov 30 18:10:15.011548 2020] [php7:notice] [pid 3008:tid 1836] [client ::1:61494] PHP Notice:  Undefined index: Count(INum) in C:\\xampp\\htdocs\\GroceryDelivery\\itemReport.php on line 34, referer: http://localhost/GroceryDelivery/items.html
+[Mon Nov 30 18:10:15.011548 2020] [php7:notice] [pid 3008:tid 1836] [client ::1:61494] PHP Notice:  Undefined index: Count(INum) in C:\\xampp\\htdocs\\GroceryDelivery\\itemReport.php on line 34, referer: http://localhost/GroceryDelivery/items.html
+[Mon Nov 30 18:19:43.476296 2020] [ssl:warn] [pid 7908:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:19:43.521186 2020] [core:warn] [pid 7908:tid 608] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 30 18:19:43.527188 2020] [ssl:warn] [pid 7908:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:19:43.550194 2020] [mpm_winnt:notice] [pid 7908:tid 608] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 configured -- resuming normal operations
+[Mon Nov 30 18:19:43.550194 2020] [mpm_winnt:notice] [pid 7908:tid 608] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Mon Nov 30 18:19:43.550194 2020] [core:notice] [pid 7908:tid 608] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Nov 30 18:19:43.552186 2020] [mpm_winnt:notice] [pid 7908:tid 608] AH00418: Parent: Created child process 1076
+[Mon Nov 30 18:19:43.852254 2020] [ssl:warn] [pid 1076:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:19:43.904273 2020] [ssl:warn] [pid 1076:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:19:43.933272 2020] [mpm_winnt:notice] [pid 1076:tid 568] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 30 18:21:27.755184 2020] [ssl:warn] [pid 8520:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:21:27.800186 2020] [core:warn] [pid 8520:tid 560] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Nov 30 18:21:27.806187 2020] [ssl:warn] [pid 8520:tid 560] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:21:27.830202 2020] [mpm_winnt:notice] [pid 8520:tid 560] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 configured -- resuming normal operations
+[Mon Nov 30 18:21:27.830202 2020] [mpm_winnt:notice] [pid 8520:tid 560] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Mon Nov 30 18:21:27.830202 2020] [core:notice] [pid 8520:tid 560] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Mon Nov 30 18:21:27.833193 2020] [mpm_winnt:notice] [pid 8520:tid 560] AH00418: Parent: Created child process 20292
+[Mon Nov 30 18:21:28.145264 2020] [ssl:warn] [pid 20292:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:21:28.194275 2020] [ssl:warn] [pid 20292:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Nov 30 18:21:28.217281 2020] [mpm_winnt:notice] [pid 20292:tid 580] AH00354: Child: Starting 150 worker threads.
+[Mon Nov 30 18:25:02.616073 2020] [php7:notice] [pid 20292:tid 1820] [client ::1:61705] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\createItemServer.php on line 24, referer: http://localhost/GroceryDelivery/createItem.php
+[Sun Dec 06 23:31:35.341113 2020] [ssl:warn] [pid 16448:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 06 23:31:35.391124 2020] [core:warn] [pid 16448:tid 544] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Dec 06 23:31:35.400126 2020] [ssl:warn] [pid 16448:tid 544] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 06 23:31:35.714198 2020] [mpm_winnt:notice] [pid 16448:tid 544] AH00455: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11 configured -- resuming normal operations
+[Sun Dec 06 23:31:35.714198 2020] [mpm_winnt:notice] [pid 16448:tid 544] AH00456: Apache Lounge VC15 Server built: Aug  4 2020 11:50:23
+[Sun Dec 06 23:31:35.714198 2020] [core:notice] [pid 16448:tid 544] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Sun Dec 06 23:31:35.717200 2020] [mpm_winnt:notice] [pid 16448:tid 544] AH00418: Parent: Created child process 17204
+[Sun Dec 06 23:31:36.017267 2020] [ssl:warn] [pid 17204:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 06 23:31:36.063277 2020] [ssl:warn] [pid 17204:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Dec 06 23:31:36.091284 2020] [mpm_winnt:notice] [pid 17204:tid 584] AH00354: Child: Starting 150 worker threads.
+[Sun Dec 06 23:32:21.132191 2020] [php7:notice] [pid 17204:tid 1820] [client ::1:52512] PHP Notice:  Undefined variable: INum in C:\\xampp\\htdocs\\GroceryDelivery\\createItemServer.php on line 24, referer: http://localhost/GroceryDelivery/createItem.php
